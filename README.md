@@ -40,7 +40,8 @@
     
    b). Use indexing to create two new dataframes:
        
-       :heavy_check_mark:
+     :heavy_check_mark: One containing the month with the maximum value in 2002
+     :heavy_check_mark: One containing the month with the maximum value in 2013
       
       
 
