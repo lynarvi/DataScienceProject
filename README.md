@@ -1,8 +1,10 @@
-## CS 103 Data Science 
-#### Arvilyn Mellizas BSCS 3A
+## CS 103 Data Science :computer: :atom:
+#### Arvilyn Mellizas BSCS 3A :woman_technologist:
 
-# Python Programming
+# Python Programming :snake: :panda_face:
 ## Review Problems
+
+#### Part 1
 
 - Import data files into pandas dataframe, using precip-2002-2013-months-seasons.csv which is available for download at https://figshare.com/articles/dataset/Earth_Analytics_Bootcamp_Pandas_Dataframes_Teaching_Subset/6934286?file=12710621
 
@@ -38,6 +40,8 @@
       50%	1.125000	1.265000
       75%	1.505000	2.345000
       max	3.200000	18.160000
+
+ 
     
    b). Use indexing to create two new dataframes:
        
@@ -93,9 +97,40 @@
      ![image](https://user-images.githubusercontent.com/62274346/120075482-04240000-c0d4-11eb-9a34-14ca004fc37e.png)
 
 
-   
+#### Part 2
+
+- Analyze, perform and answer the following questions/situations.
+
+  1. Calculate the sum of 10.8, 12.2, and 0.2, store it in the variable **total**, then display the **total's value**.
+  
+            total = 10.8 + 12.2 + 0.2
+            total
+            
+            23.2
+
+   2. Evaluate the expression 3 * (4-5) with and without parentheses. Are the parentheses redundant?
+
+
+
+   3. Evaluate the expressions 4 ** 3, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
+
+
+
+   4. What does the following print statement display? `print('int(5.2)', 'truncates 5.2 to', int(5.2))`
       
-      
+   5. For any of the operators **!=**, **>=**, or **<=**, show that the syntax error occurs if you reverse the symbols in a condition.  
+
+   6. Use all six comparison operators to compare the values 5 and 9. Display the values on one line using print.
+
+   7. For the values 47, 95, 88 and 84 calculate the minimum, maximum and range.
+
+   8. Use the `NumPy` function arange to create an array of 20 even integers from 2 through 40, then reshape the result into a 4-by-5 array.
+
+
+
+
+
+
 
 
 
