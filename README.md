@@ -8,12 +8,9 @@
 
       import pandas as pd
       precip = pd.read_csv("D:/precipitation.csv")
-
-  a). Use the `.describe()` method to summarize the precipitation values in the dataframe (e.g. precip_2002_2013). Note the maximum values in 2002 and 2013.
-
-      precip.describe()
+      print(precip)
       
-         months  precip_2002  precip_2013 seasons
+           months  precip_2002  precip_2013 seasons
       0     Jan         1.07         0.27  Winter
       1     Feb         0.44         1.13  Winter
       2     Mar         1.50         1.72  Spring
@@ -26,6 +23,23 @@
       9     Oct         2.44         2.24    Fall
       10    Nov         0.78         0.29    Fall
       11    Dec         0.02         0.50  Winter
+
+  a). Use the `.describe()` method to summarize the precipitation values in the dataframe (e.g. precip_2002_2013). Note the maximum values in 2002 and 2013.
+
+      precip.describe()
+      
+            precip_2002	precip_2013
+      count	12.000000	12.000000
+      mean	1.156667	2.845833
+      std	0.961101	4.953130
+      min	0.020000	0.270000
+      25%	0.380000	0.582500
+      50%	1.125000	1.265000
+      75%	1.505000	2.345000
+      max	3.200000	18.160000
+    
+   b). Use indexing to create two new dataframes:
+      
       
 
 
