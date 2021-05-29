@@ -39,6 +39,8 @@
       max	3.200000	18.160000
     
    b). Use indexing to create two new dataframes:
+       
+       :heavy_check_mark:
       
       
 
