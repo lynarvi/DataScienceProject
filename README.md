@@ -43,13 +43,38 @@
        
      :heavy_check_mark: One containing the month with the maximum value in 2002
      
-     :heavy_check_mark: One containing the month with the maximum value in 2013
-      
       col = precip["precip_2002"]
       max2002 = col.max()
       print(max2002)
       
-      **3.2**
+      3.2
+     
+     :heavy_check_mark: One containing the month with the maximum value in 2013
+     
+      col2 = precip["precip_2013"]
+      max2013 = col2.max()
+      print(max2013)
+      
+      18.16
+
+    c). Compare these two new dataframes
+
+     :heavy_check_mark: Do they occur in the same season?
+     
+     
+     :heavy_check_mark: What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
+     
+      print("Precipitation value for the maximum month in 2013")
+      display(precip.iloc[8])
+      
+      Precipitation value for the maximum month in 2013
+      months          Sept
+      precip_2002     1.52
+      precip_2013    18.16
+      seasons         Fall
+      Name: 8, dtype: object
+
+      
       
 
 
