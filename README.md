@@ -6,6 +6,7 @@
 
 - Import data files into pandas dataframe, using precip-2002-2013-months-seasons.csv which is available for download at https://figshare.com/articles/dataset/Earth_Analytics_Bootcamp_Pandas_Dataframes_Teaching_Subset/6934286?file=12710621
 
+      import numpy as np
       import pandas as pd
       precip = pd.read_csv("D:/precipitation.csv")
       print(precip)
@@ -44,6 +45,11 @@
      
      :heavy_check_mark: One containing the month with the maximum value in 2013
       
+      col = precip["precip_2002"]
+      max2002 = col.max()
+      print(max2002)
+      
+      **3.2**
       
 
 
