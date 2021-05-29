@@ -73,7 +73,12 @@
       precip_2013    18.16
       seasons         Fall
       Name: 8, dtype: object
-
+      
+   d). Using the columns for months and the precipitation for 2013, create a plot of **Average Monthly Precipitation in 2013 for Boulder, Co.**
+   
+     :heavy_check_mark: Recall that you can select a column as a pandas series using `dataframe["column"]`.
+     :heavy_check_mark: If needed, review 
+   
       
       
 
