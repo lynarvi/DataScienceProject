@@ -11,5 +11,9 @@
 
   a). Use the `.describe()` method to summarize the precipitation values in the dataframe (e.g. precip_2002_2013). Note the maximum values in 2002 and 2013.
 
+      precip.describe()
+      
+      ![image](https://user-images.githubusercontent.com/62274346/120074311-cbcdf300-c0ce-11eb-8654-31ae202bf969.png)
+
 
 
