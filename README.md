@@ -90,7 +90,7 @@
       s.yaxis.label.set_color("white")
       plt.show()
       
-      ![image](https://user-images.githubusercontent.com/62274346/120075482-04240000-c0d4-11eb-9a34-14ca004fc37e.png)
+     ![image](https://user-images.githubusercontent.com/62274346/120075482-04240000-c0d4-11eb-9a34-14ca004fc37e.png)
 
 
    
