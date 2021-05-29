@@ -77,7 +77,22 @@
    d). Using the columns for months and the precipitation for 2013, create a plot of **Average Monthly Precipitation in 2013 for Boulder, Co.**
    
      :heavy_check_mark: Recall that you can select a column as a pandas series using `dataframe["column"]`.
-     :heavy_check_mark: If needed, review 
+     
+     :heavy_check_mark: If needed, review how to create matplotlib plots with lists, and then substitute the list names with series selected from the pandas dataframe.
+     
+      s = precip.plot(x = "months", y = "precip_2013", kind = "scatter", color = "darkgreen")
+      s.set_title("Average Monthly Precipitation in 2013 for Boulder, Co.", color = "white")
+      plt.xlabel("Month")
+      plt.ylabel("Precipitation Value")
+      s.tick_params(axis = "x", colors = "white")
+      s.tick_params(axis = "y", colors = "white")
+      s.xaxis.label.set_color("white")
+      s.yaxis.label.set_color("white")
+      plt.show()
+      
+      ![image](https://user-images.githubusercontent.com/62274346/120075482-04240000-c0d4-11eb-9a34-14ca004fc37e.png)
+
+
    
       
       
