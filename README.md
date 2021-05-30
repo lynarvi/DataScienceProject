@@ -99,6 +99,8 @@
       precip_2013    18.16
       seasons         Fall
       Name: 8, dtype: object
+    
+    As the data shows, the precipitation value of 1.25 in the month of September 2002 increased in the same month in year 2013 which rose to the value of 18.16.
       
    d). Using the columns for months and the precipitation for 2013, create a plot of **Average Monthly Precipitation in 2013 for Boulder, Co.**
    
@@ -136,11 +138,15 @@
    2. Evaluate the expression 3 * (4-5) with and without parentheses. Are the parentheses redundant?
 
       ![image](https://user-images.githubusercontent.com/62274346/120106990-be2d7180-c191-11eb-89c3-b692535c7ded.png)
+      
+      The parenthesis is redundant if removing it yields the same results. Based on the output, it yields different results when there is parenthesis and if there's not. Thus, parenthesis is not redundant.
 
 
    3. Evaluate the expressions 4 ** 3, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
 
       ![image](https://user-images.githubusercontent.com/62274346/120107020-da311300-c191-11eb-8b05-65a9dbd4e512.png)
+      
+      Parenthesis is redundant in the expression `4 ** (3 ** 2)` since it has the same result as the expression `4 ** 3`.
 
 
    4. What does the following print statement display? `print('int(5.2)', 'truncates 5.2 to', int(5.2))`
