@@ -84,17 +84,22 @@
      
      :heavy_check_mark: If needed, review how to create matplotlib plots with lists, and then substitute the list names with series selected from the pandas dataframe.
      
-      s = precip.plot(x = "months", y = "precip_2013", kind = "scatter", color = "darkgreen")
-      s.set_title("Average Monthly Precipitation in 2013 for Boulder, Co.", color = "white")
+      import matplotlib.pyplot as plt
+      
+      print("Line graph")
+      l = precip.plot(x = "months", y = "precip_2013", kind = "line", color = "purple")
+      l.set_title("Average Monthly Precipitation in 2013 for Boulder, Co.", color = "white")
+ 
       plt.xlabel("Month")
       plt.ylabel("Precipitation Value")
-      s.tick_params(axis = "x", colors = "white")
-      s.tick_params(axis = "y", colors = "white")
-      s.xaxis.label.set_color("white")
-      s.yaxis.label.set_color("white")
+      
+      l.tick_params(axis = "x", colors = "white")
+      l.tick_params(axis = "y", colors = "white")
+      l.xaxis.label.set_color("white")
+      l.yaxis.label.set_color("white")
       plt.show()
       
-     ![image](https://user-images.githubusercontent.com/62274346/120075482-04240000-c0d4-11eb-9a34-14ca004fc37e.png)
+     ![image](https://user-images.githubusercontent.com/62274346/120106775-013b1500-c191-11eb-9494-8ea008dcc1a3.png)
 
 
 #### Part 2
@@ -103,18 +108,22 @@
 
    1. Calculate the sum of 10.8, 12.2, and 0.2, store it in the variable **total**, then display the **total's value**.
   
-      ![image](https://user-images.githubusercontent.com/62274346/120106432-7c9bc700-c18f-11eb-8a9e-18c3e3131d6d.png)
+      ![image](https://user-images.githubusercontent.com/62274346/120106897-64c54280-c191-11eb-91f8-6a0f3e3cf27b.png)
 
 
    2. Evaluate the expression 3 * (4-5) with and without parentheses. Are the parentheses redundant?
 
-      
+      ![image](https://user-images.githubusercontent.com/62274346/120106990-be2d7180-c191-11eb-89c3-b692535c7ded.png)
+
 
    3. Evaluate the expressions 4 ** 3, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
 
+      ![image](https://user-images.githubusercontent.com/62274346/120107020-da311300-c191-11eb-8b05-65a9dbd4e512.png)
 
 
    4. What does the following print statement display? `print('int(5.2)', 'truncates 5.2 to', int(5.2))`
+
+      
       
    5. For any of the operators **!=**, **>=**, or **<=**, show that the syntax error occurs if you reverse the symbols in a condition.  
 
