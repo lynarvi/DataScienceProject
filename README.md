@@ -1,7 +1,7 @@
-## CS 103 Data Science 
-#### Arvilyn Mellizas BSCS 3A
+## CS 103 Data Science 💻 
+#### Arvilyn Mellizas BSCS 3A 👩‍💻
 
-# Python Programming 
+# Python Programming 🐍 🐼
 ## Review Problems
 
 #### Part 1
@@ -71,7 +71,7 @@
 
     c). Compare these two new dataframes
 
-     - Do they occur in the same season? 
+     - Do they occur in the same season?  🌸 🌞 🍂 ❄️
      
              max2002 = precip[precip["precip_2002"] == 3.2] 
              print(max2002)
@@ -86,7 +86,7 @@
               months  precip_2002  precip_2013 seasons
             8   Sept         1.52        18.16    Fall
 
-     No, the maximum precipitation value of **2002** occured in the **spring season**, while the maximum precipitation value of **2013** occured in **fall season**.
+     No, the maximum precipitation value of **2002** occured in the **spring season** 🌸, while the maximum precipitation value of **2013** occured in **fall season** 🍂.
      
      - What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
      
@@ -100,9 +100,7 @@
       seasons         Fall
       Name: 8, dtype: object
     
-     As the data shows, the precipitation value of 1.25 in the month of September 2002 increased in the same month in year 2013 which rose to the value of 18.16.
-      
-      
+    As the data shows, the precipitation value of 1.25 in the month of September 2002 increased in the same month in year 2013 which rose to the value of 18.16.
       
    d). Using the columns for months and the precipitation for 2013, create a plot of **Average Monthly Precipitation in 2013 for Boulder, Co.**
    
