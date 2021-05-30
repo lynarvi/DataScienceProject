@@ -71,7 +71,7 @@
 
     c). Compare these two new dataframes
 
-     :heavy_check_mark: Do they occur in the same season?
+     :heavy_check_mark: Do they occur in the same season?  :cherry_blossom: :sun_with_face: :fallen_leaf: :snowflake:
      
        max2002 = precip[precip["precip_2002"] == 3.2] 
        print(max2002)
@@ -85,6 +85,8 @@
       
         months  precip_2002  precip_2013 seasons
       8   Sept         1.52        18.16    Fall
+
+     No, the maximum precipitation value of **2002** occured in the **spring season** :cherry_blossom:, while the maximum precipitation value of **2013** occured in **fall season** :fallen_leaf:.
      
      :heavy_check_mark: What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
      
