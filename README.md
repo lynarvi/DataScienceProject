@@ -47,24 +47,44 @@
        
      :heavy_check_mark: One containing the month with the maximum value in 2002
      
-      col = precip["precip_2002"]
-      max2002 = col.max()
-      print(max2002)
+      print(max(precip["precip_2002"]))
       
       3.2
+
+      max2002 = precip[precip["precip_2002"] == 3.2] 
+      print(max2002)
+      
+        months  precip_2002  precip_2013 seasons
+      4    May          3.2         2.66  Spring
      
      :heavy_check_mark: One containing the month with the maximum value in 2013
      
-      col2 = precip["precip_2013"]
-      max2013 = col2.max()
-      print(max2013)
+      print(max(precip["precip_2013"]))
       
       18.16
+
+      max2013 = precip[precip["precip_2013"] == 18.16]
+      print(max2013)
+      
+        months  precip_2002  precip_2013 seasons
+      8   Sept         1.52        18.16    Fall
 
     c). Compare these two new dataframes
 
      :heavy_check_mark: Do they occur in the same season?
      
+       max2002 = precip[precip["precip_2002"] == 3.2] 
+       print(max2002)
+      
+        months  precip_2002  precip_2013 seasons
+      4    May          3.2         2.66  Spring
+      
+      
+       max2013 = precip[precip["precip_2013"] == 18.16]
+       print(max2013)
+      
+        months  precip_2002  precip_2013 seasons
+      8   Sept         1.52        18.16    Fall
      
      :heavy_check_mark: What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
      
