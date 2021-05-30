@@ -163,8 +163,7 @@
 
    6. Use all six comparison operators to compare the values 5 and 9. Display the values on one line using print.
 
-      ![image](https://user-images.githubusercontent.com/62274346/120107218-bde1a600-c192-11eb-9a6c-9d71699c9720.png)
-      ![image](https://user-images.githubusercontent.com/62274346/120107226-ca65fe80-c192-11eb-8acf-59ba43d5aa0d.png)
+     ![image](https://user-images.githubusercontent.com/62274346/120112401-40c12b80-c1a8-11eb-88db-7d116b7a4524.png)
 
 
    7. For the values 47, 95, 88 and 84 calculate the minimum, maximum and range.
