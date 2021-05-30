@@ -1,8 +1,8 @@
-## CS 103 Data Science :computer: :atom:
-#### Arvilyn Mellizas BSCS 3A :woman_technologist:
+## CS 103 Data Science 💻 
+#### Arvilyn Mellizas BSCS 3A 👩‍💻
 
-# Python Programming :snake: :panda_face:
-## Review Problems :bookmark_tabs:
+# Python Programming 🐍 🐼
+## Review Problems
 
 #### Part 1
 
@@ -45,50 +45,50 @@
     
    b). Use indexing to create two new dataframes:
        
-     :heavy_check_mark: One containing the month with the maximum value in 2002
+     - One containing the month with the maximum value in 2002
      
-      print(max(precip["precip_2002"]))
-      
-      3.2
+            print(max(precip["precip_2002"]))
 
-      max2002 = precip[precip["precip_2002"] == 3.2] 
-      print(max2002)
-      
-        months  precip_2002  precip_2013 seasons
-      4    May          3.2         2.66  Spring
-     
-     :heavy_check_mark: One containing the month with the maximum value in 2013
-     
-      print(max(precip["precip_2013"]))
-      
-      18.16
+            3.2
 
-      max2013 = precip[precip["precip_2013"] == 18.16]
-      print(max2013)
-      
-        months  precip_2002  precip_2013 seasons
-      8   Sept         1.52        18.16    Fall
+            max2002 = precip[precip["precip_2002"] == 3.2] 
+            print(max2002)
+
+              months  precip_2002  precip_2013 seasons
+            4    May          3.2         2.66  Spring
+     
+     - One containing the month with the maximum value in 2013
+     
+            print(max(precip["precip_2013"]))
+
+            18.16
+
+            max2013 = precip[precip["precip_2013"] == 18.16]
+            print(max2013)
+
+              months  precip_2002  precip_2013 seasons
+            8   Sept         1.52        18.16    Fall
 
     c). Compare these two new dataframes
 
-     :heavy_check_mark: Do they occur in the same season?  :cherry_blossom: :sun_with_face: :fallen_leaf: :snowflake:
+     - Do they occur in the same season?  🌸 🌞 🍂 ❄️
      
-       max2002 = precip[precip["precip_2002"] == 3.2] 
-       print(max2002)
-      
-        months  precip_2002  precip_2013 seasons
-      4    May          3.2         2.66  Spring
-      
-      
-       max2013 = precip[precip["precip_2013"] == 18.16]
-       print(max2013)
-      
-        months  precip_2002  precip_2013 seasons
-      8   Sept         1.52        18.16    Fall
+             max2002 = precip[precip["precip_2002"] == 3.2] 
+             print(max2002)
 
-     No, the maximum precipitation value of **2002** occured in the **spring season** :cherry_blossom:, while the maximum precipitation value of **2013** occured in **fall season** :fallen_leaf:.
+              months  precip_2002  precip_2013 seasons
+            4    May          3.2         2.66  Spring
+
+      
+             max2013 = precip[precip["precip_2013"] == 18.16]
+             print(max2013)
+
+              months  precip_2002  precip_2013 seasons
+            8   Sept         1.52        18.16    Fall
+
+     No, the maximum precipitation value of **2002** occured in the **spring season** 🌸, while the maximum precipitation value of **2013** occured in **fall season** 🍂.
      
-     :heavy_check_mark: What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
+     - What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
      
       print("Precipitation value for the maximum month in 2013")
       display(precip.iloc[8])
@@ -104,9 +104,9 @@
       
    d). Using the columns for months and the precipitation for 2013, create a plot of **Average Monthly Precipitation in 2013 for Boulder, Co.**
    
-     :heavy_check_mark: Recall that you can select a column as a pandas series using `dataframe["column"]`.
+     - Recall that you can select a column as a pandas series using `dataframe["column"]`.
      
-     :heavy_check_mark: If needed, review how to create matplotlib plots with lists, and then substitute the list names with series selected from the pandas dataframe.
+     - If needed, review how to create matplotlib plots with lists, and then substitute the list names with series selected from the pandas dataframe.
      
       import matplotlib.pyplot as plt
       
