@@ -142,16 +142,18 @@
       The parenthesis is redundant if removing it yields the same results. Based on the output, it yields different results when there is parenthesis and if there's not. Thus, parenthesis is not redundant.
 
 
-   3. Evaluate the expressions 4 ** 3, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
+   3. Evaluate the expressions 4 ** 3 ** 2, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
 
       ![image](https://user-images.githubusercontent.com/62274346/120107020-da311300-c191-11eb-8b05-65a9dbd4e512.png)
       
-      Parenthesis is redundant in the expression `4 ** (3 ** 2)` since it has the same result as the expression `4 ** 3`.
+      Parenthesis is redundant in the expression `4 ** (3 ** 2)` since it has the same result as the expression `4 ** 3 ** 2`.
 
 
    4. What does the following print statement display? `print('int(5.2)', 'truncates 5.2 to', int(5.2))`
 
       ![image](https://user-images.githubusercontent.com/62274346/120107172-938fe880-c192-11eb-9fec-12326ca5f848.png)
+      
+      ***truncates*** means discard
       
       
    5. For any of the operators **!=**, **>=**, or **<=**, show that the syntax error occurs if you reverse the symbols in a condition. 
