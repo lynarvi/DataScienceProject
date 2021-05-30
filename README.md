@@ -123,13 +123,23 @@
 
    4. What does the following print statement display? `print('int(5.2)', 'truncates 5.2 to', int(5.2))`
 
+      ![image](https://user-images.githubusercontent.com/62274346/120107172-938fe880-c192-11eb-9fec-12326ca5f848.png)
       
       
-   5. For any of the operators **!=**, **>=**, or **<=**, show that the syntax error occurs if you reverse the symbols in a condition.  
+   5. For any of the operators **!=**, **>=**, or **<=**, show that the syntax error occurs if you reverse the symbols in a condition. 
+
+      ![image](https://user-images.githubusercontent.com/62274346/120107198-ac000300-c192-11eb-8c44-02ffcdab0268.png)
+
 
    6. Use all six comparison operators to compare the values 5 and 9. Display the values on one line using print.
 
+      ![image](https://user-images.githubusercontent.com/62274346/120107218-bde1a600-c192-11eb-9a6c-9d71699c9720.png)
+      ![image](https://user-images.githubusercontent.com/62274346/120107226-ca65fe80-c192-11eb-8acf-59ba43d5aa0d.png)
+
+
    7. For the values 47, 95, 88 and 84 calculate the minimum, maximum and range.
+   
+      ![image](https://user-images.githubusercontent.com/62274346/120107286-19139880-c193-11eb-9ab0-065a55c13033.png)
 
    8. Use the `NumPy` function arange to create an array of 20 even integers from 2 through 40, then reshape the result into a 4-by-5 array.
 
