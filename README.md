@@ -1,129 +1,64 @@
-## CS 103 Data Science 💻 
-#### Arvilyn Mellizas BSCS 3A 👩‍💻
+## CS 103 Data Science 
+#### Arvilyn Mellizas BSCS 3A 
 
-# Python Programming 🐍 🐼
+# Python Programming 
 ## Review Problems
 
 #### Part 1
 
 - Import data files into pandas dataframe, using precip-2002-2013-months-seasons.csv which is available for download at https://figshare.com/articles/dataset/Earth_Analytics_Bootcamp_Pandas_Dataframes_Teaching_Subset/6934286?file=12710621
 
-      import numpy as np
-      import pandas as pd
-      precip = pd.read_csv("D:/precipitation.csv")
-      print(precip)
-      
-           months  precip_2002  precip_2013 seasons
-      0     Jan         1.07         0.27  Winter
-      1     Feb         0.44         1.13  Winter
-      2     Mar         1.50         1.72  Spring
-      3     Apr         0.20         4.14  Spring
-      4     May         3.20         2.66  Spring
-      5    June         1.18         0.61  Summer
-      6    July         0.09         1.03  Summer
-      7     Aug         1.44         1.40  Summer
-      8    Sept         1.52        18.16    Fall
-      9     Oct         2.44         2.24    Fall
-      10    Nov         0.78         0.29    Fall
-      11    Dec         0.02         0.50  Winter
+![image](https://user-images.githubusercontent.com/62274346/120113415-fa220000-c1ac-11eb-96ae-254b13b36efa.png)
+
 
   a). Use the `.describe()` method to summarize the precipitation values in the dataframe (e.g. precip_2002_2013). Note the maximum values in 2002 and 2013.
+  
+  ![image](https://user-images.githubusercontent.com/62274346/120113454-1d4caf80-c1ad-11eb-90fc-db98dc9f79bd.png)
 
-      precip.describe()
-      
-            precip_2002	precip_2013
-      count	12.000000	12.000000
-      mean	1.156667	2.845833
-      std	0.961101	4.953130
-      min	0.020000	0.270000
-      25%	0.380000	0.582500
-      50%	1.125000	1.265000
-      75%	1.505000	2.345000
-      max	3.200000	18.160000
-
- 
     
    b). Use indexing to create two new dataframes:
        
-     - One containing the month with the maximum value in 2002
+   - One containing the month with the maximum value in 2002
+
+   ![image](https://user-images.githubusercontent.com/62274346/120113493-44a37c80-c1ad-11eb-9857-253a9ffc8821.png)
+   
+   ![image](https://user-images.githubusercontent.com/62274346/120113516-6c92e000-c1ad-11eb-8a7a-bad6dc5b0bd9.png)
+
+   ![image](https://user-images.githubusercontent.com/62274346/120113565-9c41e800-c1ad-11eb-8057-9500e928aafc.png)
+
      
-            print(max(precip["precip_2002"]))
+   - One containing the month with the maximum value in 2013
 
-            3.2
+   ![image](https://user-images.githubusercontent.com/62274346/120113590-baa7e380-c1ad-11eb-9d58-6e043d8b5c9b.png)
 
-            max2002 = precip[precip["precip_2002"] == 3.2] 
-            print(max2002)
 
-              months  precip_2002  precip_2013 seasons
-            4    May          3.2         2.66  Spring
+   c). Compare these two new dataframes
+
+   - Do they occur in the same season?  
      
-     - One containing the month with the maximum value in 2013
+      ![image](https://user-images.githubusercontent.com/62274346/120113565-9c41e800-c1ad-11eb-8057-9500e928aafc.png) 
+      ![image](https://user-images.githubusercontent.com/62274346/120113590-baa7e380-c1ad-11eb-9d58-6e043d8b5c9b.png)
+
+     No, the maximum precipitation value of **2002** occured in the **spring season**, while the maximum precipitation value of **2013** occured in **fall season** .
      
-            print(max(precip["precip_2013"]))
-
-            18.16
-
-            max2013 = precip[precip["precip_2013"] == 18.16]
-            print(max2013)
-
-              months  precip_2002  precip_2013 seasons
-            8   Sept         1.52        18.16    Fall
-
-    c). Compare these two new dataframes
-
-     - Do they occur in the same season?  🌸 🌞 🍂 ❄️
+   - What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
      
-             max2002 = precip[precip["precip_2002"] == 3.2] 
-             print(max2002)
+      ![image](https://user-images.githubusercontent.com/62274346/120113703-3efa6680-c1ae-11eb-9523-c2a122587bf8.png)
 
-              months  precip_2002  precip_2013 seasons
-            4    May          3.2         2.66  Spring
 
-      
-             max2013 = precip[precip["precip_2013"] == 18.16]
-             print(max2013)
-
-              months  precip_2002  precip_2013 seasons
-            8   Sept         1.52        18.16    Fall
-
-     No, the maximum precipitation value of **2002** occured in the **spring season** 🌸, while the maximum precipitation value of **2013** occured in **fall season** 🍂.
-     
-     - What do you notice about the precipitation value for the maximum month in 2013, as compared to that same month in 2002?
-     
-      print("Precipitation value for the maximum month in 2013")
-      display(precip.iloc[8])
-      
-      Precipitation value for the maximum month in 2013
-      months          Sept
-      precip_2002     1.52
-      precip_2013    18.16
-      seasons         Fall
-      Name: 8, dtype: object
-    
-    As the data shows, the precipitation value of 1.25 in the month of September 2002 increased in the same month in year 2013 which rose to the value of 18.16.
+   As the data shows, the precipitation value of 1.25 in the month of September 2002 increased in the same month in year 2013 which rose to the value of 18.16.
       
    d). Using the columns for months and the precipitation for 2013, create a plot of **Average Monthly Precipitation in 2013 for Boulder, Co.**
    
-     - Recall that you can select a column as a pandas series using `dataframe["column"]`.
+   - Recall that you can select a column as a pandas series using `dataframe["column"]`.
      
-     - If needed, review how to create matplotlib plots with lists, and then substitute the list names with series selected from the pandas dataframe.
+   - If needed, review how to create matplotlib plots with lists, and then substitute the list names with series selected from the pandas dataframe.
      
-      import matplotlib.pyplot as plt
+      ![image](https://user-images.githubusercontent.com/62274346/120113726-605b5280-c1ae-11eb-9229-33a1de0b152a.png)
       
-      print("Line graph")
-      l = precip.plot(x = "months", y = "precip_2013", kind = "line", color = "purple")
-      l.set_title("Average Monthly Precipitation in 2013 for Boulder, Co.", color = "white")
- 
-      plt.xlabel("Month")
-      plt.ylabel("Precipitation Value")
+      ![image](https://user-images.githubusercontent.com/62274346/120113746-7e28b780-c1ae-11eb-92ff-9be88bb83c1c.png)
       
-      l.tick_params(axis = "x", colors = "white")
-      l.tick_params(axis = "y", colors = "white")
-      l.xaxis.label.set_color("white")
-      l.yaxis.label.set_color("white")
-      plt.show()
-      
-     ![image](https://user-images.githubusercontent.com/62274346/120106775-013b1500-c191-11eb-9494-8ea008dcc1a3.png)
+      ![image](https://user-images.githubusercontent.com/62274346/120106775-013b1500-c191-11eb-9494-8ea008dcc1a3.png)
 
 
 #### Part 2
