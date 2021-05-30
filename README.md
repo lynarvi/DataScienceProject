@@ -143,6 +143,8 @@
 
    8. Use the `NumPy` function arange to create an array of 20 even integers from 2 through 40, then reshape the result into a 4-by-5 array.
 
+      ![image](https://user-images.githubusercontent.com/62274346/120107549-fd5cc200-c193-11eb-966b-1d15f85be66b.png)
+
 
 
 
