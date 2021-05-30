@@ -132,7 +132,7 @@
 
    1. Calculate the sum of 10.8, 12.2, and 0.2, store it in the variable **total**, then display the **total's value**.
   
-      ![image](https://user-images.githubusercontent.com/62274346/120106897-64c54280-c191-11eb-91f8-6a0f3e3cf27b.png)
+      ![image](https://user-images.githubusercontent.com/62274346/120112644-40756000-c1a9-11eb-9338-6fbfe0672045.png)
 
 
    2. Evaluate the expression 3 * (4-5) with and without parentheses. Are the parentheses redundant?
