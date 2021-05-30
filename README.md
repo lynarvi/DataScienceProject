@@ -168,7 +168,7 @@
 
    7. For the values 47, 95, 88 and 84 calculate the minimum, maximum and range.
    
-      ![image](https://user-images.githubusercontent.com/62274346/120107286-19139880-c193-11eb-9ab0-065a55c13033.png)
+      ![![image](https://user-images.githubusercontent.com/62274346/120112764-c1ccf280-c1a9-11eb-8e28-382e2afb0819.png)
 
    8. Use the `NumPy` function arange to create an array of 20 even integers from 2 through 40, then reshape the result into a 4-by-5 array.
 
