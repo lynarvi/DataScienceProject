@@ -101,16 +101,14 @@
 
 - Analyze, perform and answer the following questions/situations.
 
-  1. Calculate the sum of 10.8, 12.2, and 0.2, store it in the variable **total**, then display the **total's value**.
+   1. Calculate the sum of 10.8, 12.2, and 0.2, store it in the variable **total**, then display the **total's value**.
   
-            total = 10.8 + 12.2 + 0.2
-            total
-            
-            23.2
+      ![image](https://user-images.githubusercontent.com/62274346/120106432-7c9bc700-c18f-11eb-8a9e-18c3e3131d6d.png)
+
 
    2. Evaluate the expression 3 * (4-5) with and without parentheses. Are the parentheses redundant?
 
-
+      
 
    3. Evaluate the expressions 4 ** 3, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
 
