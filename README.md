@@ -74,7 +74,7 @@
 
       ![image](https://user-images.githubusercontent.com/62274346/120106990-be2d7180-c191-11eb-89c3-b692535c7ded.png)
       
-      The parenthesis is redundant if removing it yields the same results. Based on the output, it yields different results when there is parenthesis and if there's not. Thus, parenthesis is not redundant.
+      The parenthesis is redundant if removing it, yields the same results. Based on the output, it yields different results when there is parenthesis and if there's not. Thus, parenthesis is not redundant.
 
 
    3. Evaluate the expressions 4 ** 3 ** 2, (4 ** 3) and 4 ** (3 ** 2). Are any of the parentheses redundant?
